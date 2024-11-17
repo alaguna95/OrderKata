@@ -61,7 +61,7 @@ mvn spring-boot:run -Dspring-boot.run.arguments="processOrders"
 #### TaskGenerateCsv
 
 **Description**: This task generates a csv with the processed orders. 
-And logs with the resumes required.
+And logs with the required resumes.
 
 ```sh
 mvn spring-boot:run -Dspring-boot.run.arguments="generateCsv"
