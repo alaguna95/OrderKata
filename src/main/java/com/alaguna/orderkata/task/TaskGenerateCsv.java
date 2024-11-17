@@ -65,11 +65,10 @@ class TaskGenerateCsv extends Task implements CommandLineRunner {
         try (final CSVWriter writer = new CSVWriter(new FileWriter("orders.csv"))) {
 
             writer.writeNext(new String[] {
-                    "UUID", "ID", "Priority", "Date", "Region", "Country", "Item Type", "Sales Channel", "Ship Date",
+                    "Id", "Priority", "Date", "Region", "Country", "Item Type", "Sales Channel", "Ship Date",
                     "Units Sold", "Unit Price", "Unit Cost", "Total Revenue", "Total Cost", "Total Profit"  });
             orders.forEach(order -> {
                 String[] data = {
-                        order.getUuid().toString(),
                         order.getId(),
                         order.getPriority(),
                         order.getDate().format(formatter),

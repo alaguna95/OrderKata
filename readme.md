@@ -2,8 +2,8 @@
 
 ## Overview
 
-Orderkata is a Spring Boot application designed to load order data from a remote API and save it to a local database. 
-Also it has a process to generate a csv with the processed orders.
+Orderkata is a Spring Boot application designed to load order data from a remote API and save it to a local database.
+It can also run a process to generate a csv of the orders processed.
 
 ## Prerequisites
 
