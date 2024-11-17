@@ -15,7 +15,7 @@ Also it has a process to generate a csv with the processed orders.
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/alaguna95/OrderKata.git
     cd orderkata
     ```
 
