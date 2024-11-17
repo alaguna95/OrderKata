@@ -44,7 +44,7 @@ class TaskProcessOrdersTest {
     }
 
     @Test
-    void when_process_data_incorrectly_should_save_error_in_unprocess_order () throws Exception {
+    void when_process_data_incorrectly_should_save_error_in_unprocessed_order () throws Exception {
 
         UnprocessedOrderEntity orderSaved = OrdersMother.getUnprocessOrder();
         UnprocessedOrderEntity orderSavedExpected = OrdersMother.getUnprocessOrder();

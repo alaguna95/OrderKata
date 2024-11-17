@@ -21,7 +21,7 @@ class TaskProcessOrdersHelperTest {
     private EntityManager entityManager;
 
     @Test
-    void when_process_data_correctly_should_save_process_orders ()  {
+    void when_process_data_correctly_should_save_processed_orders ()  {
 
         UnprocessedOrderEntity unprocessOrder = OrdersMother.getUnprocessOrder();
         UnprocessedOrderEntity unprocessOrderExpected = OrdersMother.getUnprocessOrder();
